@@ -3,7 +3,7 @@
 /*--General--*/
 
 body {
-    background: url(/assets/images/background_image.jpg);
+    background: url(../assets/images/background_image.jpg);
     background-color: #fff;
     background-size: 700px;
     background-position: center center;
@@ -93,6 +93,13 @@ body {
     width: 450px;
     height: 350px;
     margin-top: 80px;
+}
+
+.product_image {
+    width: 400px;
+    height: 250px;
+    margin-top: 5px;
+    float: right;
 }
 
 footer {
