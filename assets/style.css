@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+/*--General--*/
+
+body {
+    background: url(/assets/images/background_image.jpg);
+    background-color: #fff;
+    background-size: 700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+/*--NavBar--*/
+
+.navbar {
+    font-family: "Pattaya", sans-serif;
+    background-color:#d1d1e0;
+    padding-bottom: 5px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+/*--Callout--*/
+
+.tagline {
+    color: black;
+    margin-top: 85px;
+    font-family: "Pattaya", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.introduction {
+    margin-top: 30px;
+    margin-left: 20px;
+    max-width: 600px;
+}
+
+.callout {
+    color: black;
+    margin-top: 60px;
+    font-family: "Pattaya", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bottom-line {
+    color: black;
+    font-family: "Pattaya", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: rgb(240, 240, 240, 0.4);
+    width: 535px;
+    padding-top: 5px;
+}
+
+.information-tag {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.information-heading {
+    text-decoration: underline;
+}
+
+.information {
+    color: black;
+    font-family: "Pattaya", sans-serif;
+    font-size: 20px;
+    max-width: 500px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 20px;
+    position: relative;
+    text-align: center;
+
+}
+
+.products {
+    text-align: center;
+}
+
+.product-heading {
+    font-family: "Courgette", sans-serif;
+    margin-bottom: 5px;
+}
+
+.product_image {
+    height: 250px;
+    width: 400px;
+    border: 1px solid white;
+    margin-top: 0px;
+}
+
+.enquiries-heading {
+    
+    font-family: "Courgette", sans-serif;
+}
+
+.enquiries {
+    text-align: center;
+}
+
+.enquiry {
+    font-family: "Courgette", sans-serif;
+}
+
+footer {
+    background-color:#d1d1e0;
+    font-family: "Pattaya", sans-serif;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+    
+
+@media screen and (max-width: 480px) {
+    
+    .jumbotron {
+        max-width: 300px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .information {
+        margin-left: 5px;
+    }
+}
