@@ -74,6 +74,8 @@ body {
 
 .information-heading {
     text-decoration: underline;
+    font-family: "Pattaya", sans-serif;
+    text-align: center;
 }
 
 .information {
@@ -102,6 +104,11 @@ body {
     float: right;
 }
 
+.benefits {
+    font-family: "Pattaya", sans-serif;
+    text-align: center;
+}
+
 footer {
     background-color:#d1d1e0;
     font-family: "Pattaya", sans-serif;
@@ -123,6 +130,11 @@ footer {
         margin-left: 5px;
     }
     .grade_image {
+        width: 260px;
+        height: 200px;
+    }
+
+    .product_image {
         width: 260px;
         height: 200px;
     }
