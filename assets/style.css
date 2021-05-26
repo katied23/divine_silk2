@@ -26,8 +26,8 @@ body {
     text-align: center;
 }
 
-.nav-link {
-    font-size: 20px;
+.nav-item {
+    font-size: 25px;
 }
 
 /*--Callout--*/
@@ -89,33 +89,10 @@ body {
 
 }
 
-.products {
-    text-align: center;
-}
-
-.product-heading {
-    font-family: "Courgette", sans-serif;
-    margin-bottom: 5px;
-}
-
-.product_image {
-    height: 250px;
-    width: 400px;
-    border: 1px solid white;
-    margin-top: 0px;
-}
-
-.enquiries-heading {
-    
-    font-family: "Courgette", sans-serif;
-}
-
-.enquiries {
-    text-align: center;
-}
-
-.enquiry {
-    font-family: "Courgette", sans-serif;
+.grade_image {
+    width: 450px;
+    height: 350px;
+    margin-top: 80px;
 }
 
 footer {
@@ -137,5 +114,9 @@ footer {
     }
     .information {
         margin-left: 5px;
+    }
+    .grade_image {
+        width: 260px;
+        height: 200px;
     }
 }
